@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extensions</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="./assets/images/logo.svg" alt="Logo" class="logo">
+      <h1>Extensions</h1>
+    </div>
+    <div class="nav-right">
+      <img src="./assets/images/icon-settings.svg" alt="Settings" class="settings-icon">
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Extensions List</h2>
+    <div class="filter-buttons">
+      <button class="filter active">All</button>
+      <button class="filter">Active</button>
+      <button class="filter">Inactive</button>
+    </div>
+
+    <div class="card-grid" id="cardContainer">
+      <!-- Cards will be generated here by JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
